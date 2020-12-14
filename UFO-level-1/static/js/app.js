@@ -25,8 +25,6 @@ form.on("submit",runEnter);
 function runEnter() {
   
   d3.event.preventDefault();
-
-  //d3.event.select('#ufo-table tbody > tr').remove()
   
   var inputElement = d3.select('#datetime');
   
